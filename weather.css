@@ -1,4 +1,4 @@
-body{
+body {
     background-color: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -8,24 +8,25 @@ body{
     align-items: center;
     height: 100vh;
 }
-.container{
+
+.container {
     background-color: bisque;
     border: 3px solid;
-    border-radius: 10;
+    border-radius: 10px;
     padding: 30px;
     width: 90%;
     max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-    transition: border -color 0.3s ease,
-    box-shadow 0.3s ease;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-h1{
+
+h1 {
     margin-bottom: 20px;
     font-size: 2rem;
     color: #333;
 }
-input, button{
 
+input, button {
     padding: 10px;
     font-size: 16px;
     margin: 5px 0;
@@ -33,19 +34,21 @@ input, button{
     border-radius: 5px;
     outline: none;
 }
-button{
+
+button {
     background-color: #319234;
     color: #fff;
     cursor: pointer;
     border: none;
-    transition: background 0.3s ease ,
-    transform 0.2 ease;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
-button:hover{
+
+button:hover {
     background: #45a049;
     transform: scale(1.05);
 }
-.weather-info{
+
+.weather-info {
     margin-top: 20px;
     font-size: 18px;
     color: #555;

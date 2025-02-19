@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulated Weather Website</title>
+    <title>Weather Website</title>
     <link rel="stylesheet" href="weather.css"/>
 </head>
 <body>
     <div class="container">
-        <h1>Weather Simulator</h1>
-        <p>Enter a city to see simulated data</p>
+        <h1>Weather App</h1>
+        <p>Enter a city to see the current weather</p>
         <input type="text" id="cityInput" placeholder="City Name">
-        <button oneclick="getweather()">getweather</button>
+        <button onclick="getWeather()">Get Weather</button>
+        <div class="weather-info" id="weatherInfo"></div>
     </div>
+    <script src="weather.js"></script>
 </body>
 </html>
